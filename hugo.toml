@@ -1,4 +1,4 @@
-baseURL = 'https://juhanajauhiainen.com/'
+baseURL = 'https://juhanakristianblog.netlify.app/'
 locale = 'en-us'
 title = 'dev notes'
 theme = 'archie'
