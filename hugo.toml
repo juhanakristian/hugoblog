@@ -1,0 +1,33 @@
+baseURL = 'https://juhanajauhiainen.com/'
+locale = 'en-us'
+title = 'dev notes'
+theme = 'archie'
+
+[params]
+  subtitle = 'Writing about web development, React, Python, and the tools I use'
+  author = 'juhana jauhiainen'
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/juhanakristian"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "twitter"
+  url = "https://twitter.com/juhanakristian"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://linkedin.com/in/juhanajauhiainen"
+
+[[params.social]]
+  name = "Dev.to"
+  icon = "simple:devdotto"
+  url = "https://dev.to/juhanakristian"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
